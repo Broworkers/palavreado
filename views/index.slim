@@ -11,11 +11,11 @@ h1= word
       |·
 
 #description
-  = description
+  == markdown(description)
 
 ol#examples
   - examples.each do |example|
-    li= example
+    li== markdown(example)
 
 nav
   h2 Descubra mais
