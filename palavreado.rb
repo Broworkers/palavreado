@@ -3,6 +3,7 @@
 require 'sinatra'
 require 'slim'
 require 'yaml'
+require 'uri'
 
 Words = YAML.load_file('words.yml')
 
@@ -14,6 +15,10 @@ helpers do
   def examples; @word['examples']; end
   def last?(i); @word['syllabes'].size - 1 == i; end
   def words; Words.keys.shuffle.first(10); end
+end
+
+get '/' do
+  redirect to(URI.escape(words.first))
 end
 
 get '/:word' do |word|
