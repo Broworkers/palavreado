@@ -1,31 +1,25 @@
-html
-  title #{word} - Palavreado.com, aprenda uma nova palavra
-  head
-    link rel='stylesheet' href='/stylesheets/application.css' type='text/css' media="screen, projection"
-    
-  body
-    h1= word
+h1= word
 
-    #syllabes
-      - syllabes.each.with_index do |syllabe, index|
-        - if stress? index
-          span.stress title='Sílaba tônica'
-            = syllabe
-        - else
-          = syllabe
-        - unless last? index
-          |·
+#syllabes
+  - syllabes.each.with_index do |syllabe, index|
+    - if stress? index
+      span.stress title='Sílaba tônica'
+        = syllabe
+    - else
+      = syllabe
+    - unless last? index
+      |·
 
-    #description
-      = description
+#description
+  = description
 
-    ol#examples
-      - examples.each do |example|
-        li= example
+ol#examples
+  - examples.each do |example|
+    li= example
 
-    nav
-      h2 Descubra mais
-      ul
-        - words.each do |word|
-          li
-            a href=url(word) = word
+nav
+  h2 Descubra mais
+  ul
+    - words.each do |word|
+      li
+        a href=url(word) = word
