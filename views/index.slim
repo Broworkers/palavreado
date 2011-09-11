@@ -1,11 +1,12 @@
 h1= word
 
-ol#syllabes
+#syllabes
   - syllabes.each.with_index do |syllabe, index|
     - if stress? index
-      li.stress= syllabe
+      span.stress title='Sílaba tônica'
+        = syllabe
     - else
-      li= syllabe
+      = syllabe
 
 #description
   = description
@@ -13,3 +14,27 @@ ol#syllabes
 ol#examples
   - examples.each do |example|
     li= example
+
+nav
+  h2 Descubra mais
+  ul
+    li
+      a href='#' intrínseco
+    li
+      a href='#' estapafúrdio
+    li
+      a href='#' factível
+    li
+      a href='#' intermitente
+    li
+      a href='#' unânime
+    li
+      a href='#' pretensão
+    li
+      a href='#' leviano
+    li
+      a href='#' pragmático
+    li
+      a href='#' lúdico
+    li
+      a href='#' ostracismo
