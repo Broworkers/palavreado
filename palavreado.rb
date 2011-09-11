@@ -17,6 +17,12 @@ helpers do
   def words; Words.keys.shuffle.first(10); end
 end
 
+disable :session
+
+configure :production do
+  disable :static
+end
+
 get '/' do
   redirect to(URI.escape(words.first))
 end
