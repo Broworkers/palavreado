@@ -27,6 +27,10 @@ get '/' do
   redirect to(URI.escape(words.first))
 end
 
+get '/about' do
+  slim :about
+end
+
 get '/:word' do |word|
   @word = Words[word]
 
