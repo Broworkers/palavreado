@@ -28,7 +28,7 @@ O código fonte do palavreado.com está disponível gratuitamente em https://git
 - Gemfile: dependências da aplicação
 - REAME.md: este arquivo
 - config.ru: configuração do Rack
-- license.txt: licença do Palavread.com
+- license.txt: licença do Palavreado.com
 - palavreado.rb: ações do Sinatra
 - public/stylesheets:
   - reset.css: CSS padrão
