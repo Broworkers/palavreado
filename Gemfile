@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 gem 'sinatra'
 gem 'mongoid'
 gem 'slim'
+gem 'redcloth'
 
 gem 'unicorn'
 
