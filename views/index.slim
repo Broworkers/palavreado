@@ -1,5 +1,6 @@
 doctype 5
 html
+  title #{word} - Palavreado.com, aprenda uma nova palavra
   head
     link rel='stylesheet' href='/stylesheets/reset.css' type='text/css' media="screen, projection"
     link rel='stylesheet' href='/stylesheets/application.css' type='text/css' media="screen, projection"
@@ -28,23 +29,6 @@ html
     nav
       h2 Descubra mais
       ul
-        li
-          a href='#' intrínseco
-        li
-          a href='#' estapafúrdio
-        li
-          a href='#' factível
-        li
-          a href='#' intermitente
-        li
-          a href='#' unânime
-        li
-          a href='#' pretensão
-        li
-          a href='#' leviano
-        li
-          a href='#' pragmático
-        li
-          a href='#' lúdico
-        li
-          a href='#' ostracismo
+        - words.each do |word|
+          li
+            a href=url(word) = word
