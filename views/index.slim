@@ -1,1 +1,15 @@
 h1= word
+
+ol#syllabes
+  - syllabes.each.with_index do |syllabe, index|
+    - if stress? index
+      li.stress= syllabe
+    - else
+      li= syllabe
+
+#description
+  = description
+
+ol#examples
+  - examples.each do |example|
+    li= example

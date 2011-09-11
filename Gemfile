@@ -1,3 +1,5 @@
+# vi:ft=ruby
+
 source 'http://rubygems.org'
 
 gem 'sinatra'
@@ -6,4 +8,6 @@ gem 'slim'
 
 gem 'unicorn'
 
-# vi:ft=ruby
+group :development do
+  gem 'shotgun'
+end
