@@ -35,7 +35,7 @@ get '/:word' do |word|
   @word = Words[word]
 
   if @word
-    slim :index
+    slim :word
   else
     [404, "Palavra não cadastrada"]
   end

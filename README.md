@@ -35,7 +35,7 @@ O código fonte do palavreado.com está disponível gratuitamente em https://git
   - application.css: CSS da aplicação
 - views:
   - about.slim: sobre Palavreado.com
-  - index.slim: definição de uma palavra
+  - word.slim: definição de uma palavra
   - layout.slim: arquivo de layout
 - words.yml: base de palavras
 
