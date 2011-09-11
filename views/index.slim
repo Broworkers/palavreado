@@ -1,42 +1,47 @@
-h1= word
+html
+  head
+    link rel='stylesheet' href='/stylesheets/application.css' type='text/css' media="screen, projection"
+    
+  body
+    h1= word
 
-#syllabes
-  - syllabes.each.with_index do |syllabe, index|
-    - if stress? index
-      span.stress title='Sílaba tônica'
-        = syllabe
-    - else
-      = syllabe
-    - unless last? index
-      |·
+    #syllabes
+      - syllabes.each.with_index do |syllabe, index|
+        - if stress? index
+          span.stress title='Sílaba tônica'
+            = syllabe
+        - else
+          = syllabe
+        - unless last? index
+          |·
 
-#description
-  = description
+    #description
+      = description
 
-ol#examples
-  - examples.each do |example|
-    li= example
+    ol#examples
+      - examples.each do |example|
+        li= example
 
-nav
-  h2 Descubra mais
-  ul
-    li
-      a href='#' intrínseco
-    li
-      a href='#' estapafúrdio
-    li
-      a href='#' factível
-    li
-      a href='#' intermitente
-    li
-      a href='#' unânime
-    li
-      a href='#' pretensão
-    li
-      a href='#' leviano
-    li
-      a href='#' pragmático
-    li
-      a href='#' lúdico
-    li
-      a href='#' ostracismo
+    nav
+      h2 Descubra mais
+      ul
+        li
+          a href='#' intrínseco
+        li
+          a href='#' estapafúrdio
+        li
+          a href='#' factível
+        li
+          a href='#' intermitente
+        li
+          a href='#' unânime
+        li
+          a href='#' pretensão
+        li
+          a href='#' leviano
+        li
+          a href='#' pragmático
+        li
+          a href='#' lúdico
+        li
+          a href='#' ostracismo
