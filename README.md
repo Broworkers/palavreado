@@ -13,11 +13,11 @@ Expandindo o Palavreado.com
 
 Você pode ajudar o Palavreado.com de diversas maneiras:
 
-- expandindo o número de palavras;
-- corrigindo um erro em uma palavra;
-- corridingo ou melhorando a programação;
+- expandindo o número de palavras
+- corrigindo um erro em uma palavra
+- corridingo ou melhorando a programação
 
-É necessário conhecimento básico de Git e Ruby para propor melhorias na programação, mas fazer melhorias apenas nas palavras, você pode entrar em contato direto com os desenvolvedores através dos e-mail daniellibanori@gmail.com ou rafaelmasoni@gmail.
+É necessário conhecimento básico de Git e Ruby para propor melhorias na programação, mas fazer melhorias apenas nas palavras, você pode entrar em contato direto com os desenvolvedores através dos e-mail daniellibanori@gmail.com ou rafaelmasoni@gmail.com.
 
 
 Cógido fonte
