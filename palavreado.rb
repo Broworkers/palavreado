@@ -13,6 +13,7 @@ helpers do
   def stress?(i); @word['stress'] == i; end
   def examples; @word['examples']; end
   def last?(i); @word['syllabes'].size - 1 == i; end
+  def words; Words.keys.shuffle.first(10); end
 end
 
 get '/:word' do |word|
