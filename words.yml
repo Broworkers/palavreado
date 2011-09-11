@@ -3,6 +3,14 @@ empírico:
   stress: 1
   description: >
     Baseado em experiência ou observação. Relativo ao empirismo.
-    fff
   examples:
     - Meu conhecimento sobre a situação é empírico.
+
+foobar:
+  syllabes: [foo, bar]
+  stress: 0
+  description: >
+    The terms foobar, foo, bar, baz and qux (alternatively quux) are sometimes used as placeholder names (also referred to as metasyntactic variables) in computer programming or computer-related documentation
+  examples:
+    - Foo = Bar
+    - Gaz = Qux
