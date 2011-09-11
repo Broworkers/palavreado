@@ -14,3 +14,12 @@ foobar:
   examples:
     - Foo = Bar
     - Gaz = Qux
+
+lorem ipsum:
+  syllabes: [lo, rem, ip, sum]
+  stress: 0
+  description: >
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  examples:
+    - Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
+    - There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
