@@ -23,3 +23,11 @@ lorem ipsum:
   examples:
     - Neque _porro_ quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
     - There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
+
+intrínseco:
+  syllabes: [in, trín, se, co]
+  stress: 1
+  description: >
+    Que faz parte da essência de algo. Natureza de algo.
+  exemples:
+    - A lealdade é intrínseca ao comportamento dos cachorros
