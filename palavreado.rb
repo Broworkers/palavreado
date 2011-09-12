@@ -3,6 +3,7 @@
 require 'sinatra'
 require 'slim'
 require 'yaml'
+require 'uri'
 
 Words = YAML.load_file('words.yml')
 
@@ -16,11 +17,25 @@ helpers do
   def words; Words.keys.shuffle.first(10); end
 end
 
+disable :session
+
+configure :production do
+  disable :static
+end
+
+get '/' do
+  redirect to(URI.escape(words.first))
+end
+
+get '/about' do
+  slim :about
+end
+
 get '/:word' do |word|
   @word = Words[word]
 
   if @word
-    slim :index
+    slim :word
   else
     [404, "Palavra não cadastrada"]
   end

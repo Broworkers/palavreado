@@ -1,0 +1,26 @@
+section
+  h1= word
+
+#syllabes
+    - syllabes.each.with_index do |syllabe, index|
+      - if stress? index
+        em.stress title='Sílaba tônica'
+          = syllabe
+      - else
+        = syllabe
+      - unless last? index
+        |·
+
+#description
+    == markdown(description)
+
+  ol#examples
+    - examples.each do |example|
+      li== markdown(example)
+
+nav
+  h2 Descubra mais
+  ul
+    - words.each do |word|
+      li
+        a href=url(word) = word

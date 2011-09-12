@@ -1,25 +1,13 @@
 empírico:
   syllabes: [em, pí, ri, co]
   stress: 1
-  description: >
-    Baseado em experiência ou observação. Relativo ao empirismo.
+  description: "Baseado em experiência ou observação. Relativo ao empirismo."
   examples:
-    - Meu conhecimento sobre a situação é empírico.
+    - "Meu conhecimento sobre a situação é empírico."
 
-foobar:
-  syllabes: [foo, bar]
-  stress: 0
-  description: >
-    The terms foobar, foo, bar, baz and qux (alternatively quux) are sometimes used as placeholder names (also referred to as metasyntactic variables) in computer programming or computer-related documentation
-  examples:
-    - Foo = Bar
-    - Gaz = Qux
-
-lorem ipsum:
-  syllabes: [lo, rem, ip, sum]
-  stress: 0
-  description: >
-    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-  examples:
-    - Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...
-    - There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...
+intrínseco:
+  syllabes: [in, trín, se, co]
+  stress: 1
+  description: "Que faz parte da essência de algo. Natureza de algo."
+  exemples:
+    - "A lealdade é intrínseca ao comportamento dos cachorros"
