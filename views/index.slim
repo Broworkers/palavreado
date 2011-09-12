@@ -3,27 +3,33 @@ html
   head
     link rel='stylesheet' href='/stylesheets/reset.css' type='text/css' media="screen, projection"
     link rel='stylesheet' href='/stylesheets/application.css' type='text/css' media="screen, projection"
+    link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700' rel='stylesheet' type='text/css'
+    link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900' rel='stylesheet' type='text/css'
     title #{word} - Palavreado.com, aprenda uma nova palavra
 
   body
-    h1= word
+    header
+      | Palavreado
+      span .com
+    section
+      h1= word
 
-    #syllabes
-      - syllabes.each.with_index do |syllabe, index|
-        - if stress? index
-          span.stress title='Sílaba tônica'
+      #syllabes
+        - syllabes.each.with_index do |syllabe, index|
+          - if stress? index
+            em.stress title='Sílaba tônica'
+              = syllabe
+          - else
             = syllabe
-        - else
-          = syllabe
-        - unless last? index
-          |·
+          - unless last? index
+            |·
 
-    #description
-      = description
+      #description
+        = description
 
-    ol#examples
-      - examples.each do |example|
-        li= example
+      ol#examples
+        - examples.each do |example|
+          li= example
 
     nav
       h2 Descubra mais

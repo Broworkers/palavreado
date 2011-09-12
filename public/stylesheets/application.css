@@ -1,0 +1,5 @@
+body { padding:25px; font-family:Crimson Text, Palatino, Georgia, serif; }
+header { font-family:Maven Pro, Helvetica, sans-serif; font-size:28px; font-weight:bold; color:#6FB4D4; text-transform:uppercase; }
+header span { font-weight:normal; color:#E0DDD4; letter-spacing:-0.05em; text-transform:none; }
+
+section { border:1px solid #CCC; }
