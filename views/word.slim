@@ -1,7 +1,7 @@
 section
   h1= word
 
-#syllabes
+  #syllabes
     - syllabes.each.with_index do |syllabe, index|
       - if stress? index
         em.stress title='Sílaba tônica'
@@ -11,7 +11,7 @@ section
       - unless last? index
         |·
 
-#description
+  #description
     == markdown(description)
 
   ol#examples
