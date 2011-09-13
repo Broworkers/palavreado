@@ -19,10 +19,6 @@ end
 
 disable :session
 
-configure :production do
-  disable :static
-end
-
 get '/' do
   redirect to(URI.escape(words.first))
 end
