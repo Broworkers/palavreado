@@ -14,14 +14,10 @@ helpers do
   def stress?(i); @word['stress'] == i; end
   def examples; @word['examples']; end
   def last?(i); @word['syllabes'].size - 1 == i; end
-  def words; Words.keys.shuffle.first(10); end
+  def words; Words.keys.shuffle.first(10).sort; end
 end
 
 disable :session
-
-configure :production do
-  disable :static
-end
 
 get '/' do
   redirect to(URI.escape(words.first))
