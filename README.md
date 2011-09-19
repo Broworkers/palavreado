@@ -5,7 +5,7 @@ O Palavreado.com busca expandir o vocabulário de falantes de Português do Bras
 
 Cada palavra é apresentada com sua divisão silábica e um destaque para a sílaba tônica.
 
-O site não tem a inteção de ser um substituto ao dicionário.
+O site não tem a intenção de substituir o dicionário.
 
 
 Expandindo o Palavreado.com
