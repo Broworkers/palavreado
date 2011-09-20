@@ -20,7 +20,7 @@ end
 disable :session
 
 get '/' do
-  redirect to(URI.escape(words.last))
+  redirect to(URI.escape(Words.keys.last))
 end
 
 get '/about' do
