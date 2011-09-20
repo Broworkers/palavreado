@@ -4,8 +4,10 @@ html
     link rel='stylesheet' href='/stylesheets/reset.css' type='text/css' media="screen, projection"
     link rel='stylesheet' href='/stylesheets/application.css' type='text/css' media="screen, projection"
 
+    link rel='shortcut icon' href='/images/icon.png'
+
     link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,700' rel='stylesheet' type='text/css'
-    link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,900' rel='stylesheet' type='text/css'
+    link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'
 
     title
       - if word
@@ -14,7 +16,20 @@ html
 
   body
     header
-      | Palavreado
-      span .com
+      a href="/"
+        | Palavreado
+        span .com
 
     == yield
+
+    footer
+      | &copy 2011 
+      a href="http://rafaelmasoni.com" Rafael Masoni
+      |  &amp; 
+      a href="http://bolodefoobar.blogspot.com" Daniel Libanori
+      |  · 
+      a href="http://twitter.com/PALAVREADOcom" Twitter
+      | , 
+      a href="http://facebook.com/Palavreado" Facebook
+      |  · 
+      a href="/about" Sobre

@@ -1,9 +1,7 @@
-#TODO
-- colocar cache nos arquivo estáticos;
-- enviar 304;
+# TODO
+- cachear arquivos estáticos
+- enviar 304
 - instalar Airbrake
 - configurar New Relic
-
-Desenvolvimento:
 - fazer rspec
-- arrumar Markdown
+- arrumar Markdown (problemas com rdiscount)

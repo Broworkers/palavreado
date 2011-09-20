@@ -1,20 +1,52 @@
-body { margin:0 auto; padding:25px; width:850px; font-family:Crimson Text, Palatino, Georgia, serif; background:url("/images/bg_body.png") no-repeat center top #2F82C9; }
-header { margin:0 0 25px 175px; font-family:Maven Pro, Helvetica, sans-serif; font-size:28px; font-weight:bold; color:#F3F1EA; text-transform:uppercase; }
-header span { font-weight:normal; color:#92D0ED; letter-spacing:-0.05em; text-transform:none; }
+/* Main Body */
+body { margin:0 auto; padding:25px; width:850px; font-family:Crimson Text, Palatino, Georgia, serif; background:url("/images/bg_body.png") no-repeat center top fixed #2F82C9; }
+
+/* Title */
+header { margin:0 0 25px 175px; }
+header a { position:relative; font-family:Maven Pro, Helvetica, sans-serif; font-size:28px; font-weight:900; text-transform:uppercase; text-decoration:none; color:#F3F1EA; outline:none; }
+header a span { font-weight:normal; color:#92D0ED; letter-spacing:-0.05em; text-transform:none; }
+header a:hover:before, header a:focus:before { content:"⬅ Home"; position:absolute; left:-35%; padding:0.4em; top:8%; font-size:0.5em; color:#92D0ED; background-color:rgba(10,70,115,0.3); border-radius:0.5em; }
 
 
-section { float:left; margin:0 25px 0 175px; padding:50px; width:400px; background-color:#F3F1EA; box-shadow:0 1px 2px rgba(0,0,0,0.3); }
+/* Content */
+section { float:left; margin:0 25px 25px 175px; padding:50px; width:400px; background-color:#F3F1EA; box-shadow:0 1px 2px rgba(0,0,0,0.3); }
 
-h1 { margin-bottom:35px; font-size:60px; font-weight:normal; text-align:center; line-height:0.5em; }
-#syllabes { margin-bottom:25px; font-size:24px; text-align:center; color:#9E9884; }
-#syllabes em { font-weight:bold; font-style:normal; cursor:help; }
+/* Word Section */
+#word h1 { margin-bottom:35px; font-size:60px; font-weight:normal; text-align:center; line-height:0.5em; }
+#word #syllabes { margin-bottom:25px; font-size:24px; text-align:center; color:#9E9884; }
+#word #syllabes em { font-weight:bold; font-style:normal; cursor:help; }
 
-#description { margin-bottom:25px; font-size:24px; line-height:25px; }
+#word #description { margin-bottom:25px; font-size:24px; line-height:25px; }
 
-#examples { margin-left:25px; font-size:24px; font-style:italic; color:#9E9884; }
+#word #examples { font-size:24px; font-style:italic; color:#9E9884; list-style-position:inside; }
 
 
+/* Sidebar */
 nav { float:right; padding:25px; width:100px; background-color:#65AEDC; box-shadow:0 1px 2px rgba(0,0,0,0.3); }
 nav h2 { margin-bottom:12px; font-size:13px; font-weight:600; color:#F3F1EA; text-transform:uppercase; letter-spacing:; text-align:center; text-shadow:0 1px 1px rgba(0,0,0,0.2); }
 nav a { font-size:14px; color:#D3F3FF; line-height:25px; text-decoration:none; }
 nav a:hover, nav a:focus { text-decoration:underline; }
+
+
+/* About Section */
+#about { font-family:Maven Pro, Helvetica, sans-serif; text-align:center; line-height:2em; }
+#about h1, #about h2, #about dd:not(:last-child) { margin-bottom:25px; }
+#about h2, #about dd:not(:last-child) { padding-bottom:25px; border-bottom:1px solid rgba(0,0,0,0.05); }
+#about h1 { font-size:1.5em; }
+#about h2 { margin-top:25px; padding-top:25px; font-size:1.2em; color:#666; border-top:1px solid rgba(0,0,0,0.05); }
+#about h2:before, #about h2:after { content:"—"; color:#CCC; }
+
+#about p { margin-bottom:25px; font-size:0.85em; line-height:1.5em; text-align:left; }
+#about a { color:#2F82C9; text-decoration:none; }
+#about a:hover, #about a:focus { text-decoration:underline; }
+#about ul { margin-bottom:25px; font-size:0.85em; line-height:1.5em; text-align:left; list-style:square inside; }
+
+#about dl ul { margin-bottom:0; font-size:1em; text-align:center; list-style:none; }
+#about dt { font-weight:500; color:#666; }
+#about dd { font-size:0.8em; color:#999; }
+
+
+/* Footer */
+footer { margin-bottom:25px; float:left; margin-left:175px; width:500px; font-family:Maven Pro, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#65AEDC; }
+footer a { color:#79BFEA; text-decoration:none; outline:none; }
+footer a:hover, footer a:focus { color:#D3F3FF; text-decoration:underline; }
