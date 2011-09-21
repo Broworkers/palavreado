@@ -8,6 +8,62 @@ empírico:
 intrínseco:
   syllabes: [in, trín, se, co]
   stress: 1
-  description: "Que faz parte da essência de algo. Natureza de algo."
+  description: "Que está no interior de algo ou faz parte de sua essência. Íntimo."
   examples:
-    - "A lealdade é intrínseca ao comportamento dos cachorros"
+    - "O comportamento leal dos cães é intrínseco."
+
+factível:
+  syllabes: [fac, tí, vel]
+  stress: 1
+  description: "Possível de se fazer."
+  examples:
+    - "O programador considera este projeto factível."
+
+intermitente:
+  syllabes: [in, ter, mi, ten, te]
+  stress: 3
+  description: "Que pára por intervalos. Não contínuo."
+  examples:
+    - "O som da velha vitrola é intermitente."
+
+leviano:
+  syllabes: [le, vi, a, "no"]
+  stress: 2
+  description: "Que não tem seriedade ou consideração. Insensato."
+  examples:
+    - "O prefeito se mostrou leviano em seu discurso."
+
+pragmático:
+  syllabes: [prag, má, ti, co]
+  stress: 1
+  description: "Prático, realista, objetivo."
+  examples:
+    - "Seu modo de resolver problemas é bastante pragmático."
+
+estapafúrdio:
+  syllabes: [es, ta, pa, fúr, dio]
+  stress: 3
+  description: "Extravagante, excêntrico."
+  examples:
+    - "Ela tem um jeito estapafúrdio de ser."
+
+lúdico:
+  syllabes: [lú, di, co]
+  stress: 0
+  description: "Relativo a jogos ou brincadeiras. Que não tem outra finalidade senão a diversão."
+  examples:
+    - "Usa-se o lúdico para ensinar as crianças."
+
+unânime:
+  syllabes: [u, nâ, ni, me]
+  stress: 1
+  description: "Resultante de acordo comum. Relativo a todos."
+  examples:
+    - "A decisão de aumentar os salários foi unânime."
+
+unânime:
+  syllabes: [u, nâ, ni, me]
+  stress: 1
+  description: "Resultante de acordo comum. Relativo a todos."
+  examples:
+    - "A decisão de aumentar os salários foi unânime."
