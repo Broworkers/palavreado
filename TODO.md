@@ -1,5 +1,6 @@
 # TODO
 1. paginação na navegação (Descubra mais)
+1. badge na última palavra
 1. cachear arquivos estáticos
 1. fazer rspec
 2. instalar Airbrake
