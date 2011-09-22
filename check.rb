@@ -2,7 +2,7 @@
 require 'yaml'
 
 def verify(value, klass=String)
-  raise unless klass === value
+  raise "Palavra '#$key' inválida" unless klass === value
 end
 
 out = STDOUT
@@ -33,7 +33,7 @@ begin
   end
 rescue => ex
   out.puts "ERRO"
-  err.puts "Palavra '#$key' inválida"
+  err.puts ex.message
   exit 1
 else
   out.puts "OK"
