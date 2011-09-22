@@ -1,4 +1,5 @@
 # TODO
+0. colocar Google Analytics
 1. paginação na navegação (Descubra mais)
 1. badge na última palavra
 1. cachear arquivos estáticos
