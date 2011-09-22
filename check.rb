@@ -1,9 +1,5 @@
 # encoding: utf-8
-
 require 'yaml'
-require 'test/unit/assertions'
-
-include MiniTest::Assertions
 
 def verify(value, klass=String)
   raise unless klass === value
