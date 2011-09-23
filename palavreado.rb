@@ -5,6 +5,8 @@ require 'slim'
 require 'yaml'
 require 'uri'
 
+disable :session
+
 Words = YAML.load_file('words.yml')
 
 helpers do
@@ -16,8 +18,6 @@ helpers do
   def last?(i); @word['syllabes'].size - 1 == i; end
   def words; Words.keys.shuffle.first(10).sort; end
 end
-
-disable :session
 
 get '/' do
   redirect to(URI.escape(Words.keys.last))

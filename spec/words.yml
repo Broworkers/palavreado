@@ -1,0 +1,6 @@
+foobar:
+  syllabes: [foo, bar]
+  stress: 1
+  description: "Foo bar"
+  examples:
+    - "Bolo de foo bar."
