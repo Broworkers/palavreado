@@ -8,62 +8,55 @@ empírico:
 intrínseco:
   syllabes: [in, trín, se, co]
   stress: 1
-  description: "Que está no interior de algo ou faz parte de sua essência. Íntimo."
+  description: "Que faz parte da essência ou natureza de algo. Íntimo."
   examples:
-    - "O comportamento leal dos cães é intrínseco."
+    - "A lealdade é um comportamento intrínseco aos cães."
 
 factível:
   syllabes: [fac, tí, vel]
   stress: 1
-  description: "Possível de se fazer."
+  description: "Que pode ser feito ou acontecer."
   examples:
-    - "O programador considera este projeto factível."
+    - "Realizar o projeto dentre deste prazo não é factível."
 
 intermitente:
   syllabes: [in, ter, mi, ten, te]
   stress: 3
-  description: "Que pára por intervalos. Não contínuo."
+  description: "Em que ocorrem interrupções. Que não é contínuo."
   examples:
-    - "O som da velha vitrola é intermitente."
+    - "A conexão da Internet em minha casa é intermitente."
 
 leviano:
   syllabes: [le, vi, a, "no"]
   stress: 2
-  description: "Que não tem seriedade ou consideração. Insensato."
+  description: "Que age sem seriedade ou consideração."
   examples:
-    - "O prefeito se mostrou leviano em seu discurso."
+    - "O prefeito se mostrou leviano em seu mandato."
 
 pragmático:
   syllabes: [prag, má, ti, co]
   stress: 1
   description: "Prático, realista, objetivo."
   examples:
-    - "Seu modo de resolver problemas é bastante pragmático."
+    - "Ele é bastante pragmático ao resolver problemas."
 
 estapafúrdio:
   syllabes: [es, ta, pa, fúr, dio]
   stress: 3
-  description: "Extravagante, excêntrico."
+  description: "Extravagante, bizarro."
   examples:
-    - "Ela tem um jeito estapafúrdio de ser."
+    - "Fora do trabalho, ele é um sujeito bastante estapafúrdio."
 
 lúdico:
   syllabes: [lú, di, co]
   stress: 0
-  description: "Relativo a jogos ou brincadeiras. Que não tem outra finalidade senão a diversão."
+  description: "Relativo a jogos ou brincadeiras. Que tem como finalidade a diversão."
   examples:
-    - "Usa-se o lúdico para ensinar as crianças."
+    - "O recreio é o momento lúdico na escola."
 
 unânime:
   syllabes: [u, nâ, ni, me]
   stress: 1
-  description: "Resultante de acordo comum. Relativo a todos."
-  examples:
-    - "A decisão de aumentar os salários foi unânime."
-
-unânime:
-  syllabes: [u, nâ, ni, me]
-  stress: 1
-  description: "Resultante de acordo comum. Relativo a todos."
+  description: "Concordância geral. Que está de acordo com todos."
   examples:
     - "A decisão de aumentar os salários foi unânime."
