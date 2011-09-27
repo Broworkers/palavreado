@@ -5,6 +5,7 @@
 0. link para formulário de sugestão
 0. colocar botão de donation
 0. adicionar botão 'Like/Curtir'
+0. adicionar botão que leva a uma palavra aleatória
 1. paginação na navegação (Descubra mais)
 1. badge na última palavra
 1. cachear arquivos estáticos
