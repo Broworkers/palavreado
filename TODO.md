@@ -6,6 +6,7 @@
 0. colocar botão de donation
 0. adicionar botão que leva a uma palavra aleatória
 0. colocar botões Like e Follow
+0. adição de créditos a uma palavra
 1. paginação na navegação (Descubra mais)
 1. badge na última palavra
 1. cachear arquivos estáticos
