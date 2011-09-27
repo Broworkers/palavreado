@@ -19,6 +19,7 @@ section { float:left; margin:0 25px 25px 175px; padding:50px; width:400px; backg
 #word #description { margin-bottom:25px; font-size:24px; line-height:25px; }
 
 #word #examples { font-size:24px; font-style:italic; color:#9E9884; list-style-position:inside; }
+#word #examples li:not(:last-child) { margin-bottom:0.5em; }
 
 
 /* Sidebar */
