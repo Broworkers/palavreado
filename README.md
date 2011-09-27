@@ -15,23 +15,25 @@ Você pode ajudar o **Palavreado.com** de diversas maneiras:
 - corrigindo um erro em uma palavra
 - corrigindo ou melhorando a programação
 
-É necessário conhecimento básico de Git e Ruby para propor melhorias na programação. Para propor melhorias nas palavras, você pode entrar em contato direto com os desenvolvedores através dos e-mails daniellibanori@gmail.com ou rafaelmasoni@gmail.com.
+É necessário conhecimento básico de Git e Ruby para propor melhorias na programação. Para propor melhorias nas palavras, você pode entrar em contato direto com os desenvolvedores através dos e-mails rafaelmasoni@gmail.com ou daniellibanori@gmail.com.
+
+Para sugerir novas palavras, use nosso formulário aqui: http://tinyurl.com/SugerirPalavreado
 
 
 ## Testando o Palavreado.com
 
-Você pode testar a integridade básica do Palavreado.com utilizando _bacon_. A suite de teste é bastante reduzida, então recomendamos você ampliar a suite ou testar manualmente suas alterações.
+Você pode testar a integridade básica do Palavreado.com utilizando `bacon`. A suíte de teste é bastante reduzida, então recomendamos que você amplie a suíte ou teste manualmente suas alterações.
 
-  $ bacon spec/palavreado\_spec.rb
+    $ bacon spec/palavreado\_spec.rb
 
 
 ## Testando o dicionário
 
-O arquivo check.rb é uma pequena aplicação ruby que verifica se o arquivo dicinário está bem formado, dando OK se não houver erros ou ERRO e informando a palavra caso haja problemas no arquivo. Você pode executar a aplicação deste modo:
+O arquivo `check.rb` é uma pequena aplicação Ruby que verifica se o arquivo YML do dicinário está bem formado, dando _OK_, se não houver erros, ou _ERRO_ e informando a palavra, caso haja problemas no arquivo. Você pode executar a aplicação deste modo:
 
-  $ ruby check.rb words.yml
+    $ ruby check.rb words.yml
 
-O status code será 0 caso não haja erro, ou 1 em caso de falha.
+O _status code_ será _0_, caso não haja erro, ou _1_, em caso de falha.
 
 ## Cógido fonte
 
