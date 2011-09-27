@@ -60,3 +60,12 @@ unânime:
   description: "Concordância geral. Que está de acordo com todos."
   examples:
     - "A decisão de aumentar os salários foi unânime."
+
+inexorável:
+  syllabes: [i, ne, xo, rá, vel]
+  stress: 3
+  description: "Que não cede diante de súplicas. Inflexível, fatal, inelutável."
+  examples:
+    - "O juiz proferiu a inexorável sentença."
+    - "Via-se em seu rosto a inexorável crueldade do tempo."
+    - "Jack beijou Rose enquanto o Titanic lentamente cumpria seu inexorável destino"
