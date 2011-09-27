@@ -16,7 +16,7 @@ helpers do
   def stress?(i); @word['stress'] == i; end
   def examples; @word['examples']; end
   def last?(i); @word['syllabes'].size - 1 == i; end
-  def random; Words.keys.shuffle.first(10).sort; end
+  def random; Words.keys.shuffle.first(10); end
 end
 
 get '/' do
@@ -25,6 +25,11 @@ end
 
 get '/about' do
   slim :about
+end
+
+get '/random' do
+  @word = Words[random.first]
+  slim :word
 end
 
 get '/:word' do |word|

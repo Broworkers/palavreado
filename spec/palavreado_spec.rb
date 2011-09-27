@@ -27,4 +27,9 @@ describe 'Palavreado.com' do
     get '/gazonk'
     last_response.should.be.not_found
   end
+
+  it "should return OK to a random word" do
+    get '/random'
+    last_response.should.be.ok
+  end
 end
