@@ -28,7 +28,8 @@ get '/about' do
 end
 
 get '/random' do
-  @word = Words[random.first]
+  params[:word] = random.first
+  @word = Words[word]
   slim :word
 end
 
