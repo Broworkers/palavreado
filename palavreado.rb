@@ -24,7 +24,7 @@ get '/' do
   redirect to(escape(Words.keys.last))
 end
 
-get '/rss', provides: %w[rss atom xml] do
+get '/rss' do
   params[:word] = Words.keys.last
   @word = Words[word]
   slim :feed, layout: false
