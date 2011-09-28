@@ -1,5 +1,4 @@
 # TODO
-0. Testar RSS
 0. CACHE!
 0. botão Like
 0. botão Follow
