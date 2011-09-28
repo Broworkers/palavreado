@@ -28,14 +28,18 @@ describe 'Palavreado.com' do
     last_response.should.be.not_found
   end
 
-  it "should return OK to a random word" do
+  it "should return OK for a random word" do
     get '/random'
     last_response.should.be.ok
   end
 
-  it "should return OK to RSS feed" do
-    header "Accept", "application/rss+xml"
+  it "should return OK for RSS feed" do
     get '/rss'
     last_response.should.be.ok
+  end
+
+  it "should return right Content-Type for RSS" do
+    get '/rss'
+    last_response.headers['Content-Type'].should.be == "application/rss+xml"
   end
 end

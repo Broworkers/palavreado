@@ -27,6 +27,8 @@ end
 get '/rss' do
   params[:word] = Words.keys.last
   @word = Words[word]
+
+  content_type "application/rss+xml"
   slim :feed, layout: false
 end
 
