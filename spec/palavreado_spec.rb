@@ -32,4 +32,10 @@ describe 'Palavreado.com' do
     get '/random'
     last_response.should.be.ok
   end
+
+  it "should return OK to RSS feed" do
+    header "Accept", "application/rss+xml"
+    get '/rss'
+    last_response.should.be.ok
+  end
 end
