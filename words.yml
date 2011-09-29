@@ -68,3 +68,11 @@ inexorável:
   examples:
     - "O juiz proferiu a inexorável sentença."
     - "Jack beijou Rose enquanto o Titanic lentamente cumpria seu inexorável destino."
+
+concomitante:
+  syllabes: [con, co, mi, tan, te]
+  stress: 3
+  description: "Que ocorre ao mesmo tempo que outro acontecimento. Simultâneo."
+  examples:
+    - "Alguns estudos sugerem que as mulheres são melhores em realizar tarefas concomitantes."
+  kudos: "Érika Cólen"
