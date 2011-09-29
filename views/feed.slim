@@ -1,0 +1,15 @@
+erb:
+  <?xml version="1.0" encoding="UTF-8" ?>
+rss version=2.0
+ channel
+   title Palavreado.com
+   description Todo dia uma palavra nova
+   link http://palavreado.com
+   language pt-br
+   ttl 3600
+
+   item
+     title= word
+     description= description
+     link= url(escape(word))
+     guid= url(escape(word))

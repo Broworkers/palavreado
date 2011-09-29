@@ -17,10 +17,19 @@ helpers do
   def examples; @word['examples']; end
   def last?(i); @word['syllabes'].size - 1 == i; end
   def random; Words.keys.shuffle.first(10); end
+  def escape(string); (URI.escape(string)); end
 end
 
 get '/' do
-  redirect to(URI.escape(Words.keys.last))
+  redirect to(escape(Words.keys.last))
+end
+
+get '/rss' do
+  params[:word] = Words.keys.last
+  @word = Words[word]
+
+  content_type "application/rss+xml"
+  slim :feed, layout: false
 end
 
 get '/about' do
@@ -28,7 +37,8 @@ get '/about' do
 end
 
 get '/random' do
-  @word = Words[random.first]
+  params[:word] = random.first
+  @word = Words[word]
   slim :word
 end
 
