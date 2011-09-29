@@ -19,8 +19,10 @@ section#word
       li= example
 
 nav
-  h2 Descubra mais
-  ul
-    - random.each do |word|
-      li
-        a href=url(word) = word
+  a.random href="/random" Embaralhar
+  div
+    h2 Descubra mais
+    ul
+      - random.each do |word|
+        li
+          a href=url(word) = word

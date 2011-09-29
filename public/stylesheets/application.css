@@ -2,8 +2,8 @@
 body { margin:0 auto; padding:25px; width:850px; font-family:Crimson Text, Palatino, Georgia, serif; background:url("/images/bg_body.png") no-repeat center top fixed #2F82C9; }
 
 /* Title */
-header { margin:0 0 25px 175px; }
-header a { position:relative; font-family:Maven Pro, Helvetica, sans-serif; font-size:28px; font-weight:900; text-transform:uppercase; text-decoration:none; color:#F3F1EA; outline:none; }
+header { margin:0 0 25px 175px; font-family:Maven Pro, Helvetica, sans-serif; }
+header a { position:relative; margin-right:25px; font-size:28px; font-weight:900; text-transform:uppercase; text-decoration:none; color:#F3F1EA; outline:none; }
 header a span { font-weight:normal; color:#92D0ED; letter-spacing:-0.05em; text-transform:none; }
 header a:hover:before, header a:focus:before { content:"⬅ Home"; position:absolute; left:-35%; padding:0.4em; top:8%; font-size:0.5em; color:#92D0ED; background-color:rgba(10,70,115,0.3); border-radius:0.5em; }
 
@@ -22,11 +22,19 @@ section { float:left; margin:0 25px 25px 175px; padding:50px; width:400px; backg
 #word #examples li:not(:last-child) { margin-bottom:0.5em; }
 
 
-/* Sidebar */
-nav { float:right; padding:25px; width:100px; background-color:#65AEDC; box-shadow:0 1px 2px rgba(0,0,0,0.3); }
+/* Word List */
+nav { float:right; width:150px; }
+nav > div { padding:25px; background-color:rgba(255,255,255,0.15); box-shadow:0 1px 2px rgba(0,0,0,0.3); }
 nav h2 { margin-bottom:12px; font-size:13px; font-weight:600; color:#F3F1EA; text-transform:uppercase; letter-spacing:; text-align:center; text-shadow:0 1px 1px rgba(0,0,0,0.2); }
 nav a { font-size:14px; color:#D3F3FF; line-height:25px; text-decoration:none; }
 nav a:hover, nav a:focus { text-decoration:underline; }
+
+nav a.random { display:block; margin-bottom:25px; padding:10px 10px 10px 36px; font-family:Maven Pro, Helvetica, sans-serif; font-size:13px; font-weight:700; line-height:1; text-transform:uppercase; color:#000; background:url("/images/random.png") no-repeat 10px 10px #F3F1EA; border-radius:5px; box-shadow:0 1px 2px rgba(0,0,0,0.3); text-decoration:none; }
+nav a.random:hover, nav a.random:focus { background:url("/images/random.png") no-repeat 10px -26px #000; color:#F3F1EA; }
+
+
+/* Sidebar */
+aside { float:left; padding:25px; width:100px; background-color:rgba(0,0,0,0.1); }
 
 
 /* About Section */
@@ -51,3 +59,13 @@ nav a:hover, nav a:focus { text-decoration:underline; }
 footer { margin-bottom:25px; float:left; margin-left:175px; width:500px; font-family:Maven Pro, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#65AEDC; }
 footer a { color:#79BFEA; text-decoration:none; outline:none; }
 footer a:hover, footer a:focus { color:#D3F3FF; text-decoration:underline; }
+
+
+/* Social Buttons */
+#social { margin-bottom:25px; padding-bottom:25px; height:20px; border-bottom:1px solid #26679B; text-align:center; overflow:hidden; opacity:0.5; }
+#social:hover { opacity:1; }
+
+#social .paypal { float:left; margin-right:15px; padding:4px; font-family:Maven Pro, Helvetica, sans-serif; color:#000; font-weight:bold; font-size:12px; background-color:#F96; border:none; border-radius:3px; text-shadow:0 1px 0 rgba(255,255,255,0.3); cursor:pointer; vertical-align:middle; text-decoration:none; box-shadow:inset 0 5px 5px #FFB, 0 1px 1px rgba(0,0,0,0.3); cursor:pointer; -moz-appearance:none; -webkit-appearance:none; }
+#social .paypal span { font-family:Crimson Text, Palatino, Georgia, serif; font-style:italic; font-weight:normal; }
+
+#social .addthis_button_twitter_follow_native iframe { width:185px !important; }
