@@ -17,7 +17,7 @@ factível:
   stress: 1
   description: "Que pode ser feito ou acontecer."
   examples:
-    - "Realizar o projeto dentre deste prazo não é factível."
+    - "Não é factível realizar o projeto neste prazo."
 
 intermitente:
   syllabes: [in, ter, mi, ten, te]
@@ -29,9 +29,9 @@ intermitente:
 leviano:
   syllabes: [le, vi, a, "no"]
   stress: 2
-  description: "Que age sem seriedade ou consideração."
+  description: "Que age sem seriedade ou consideração. Que julga ou procede precipitadamente."
   examples:
-    - "O prefeito se mostrou leviano em seu mandato."
+    - "O prefeito se mostrou leviano em seu discurso."
 
 pragmático:
   syllabes: [prag, má, ti, co]
@@ -75,4 +75,5 @@ concomitante:
   description: "Que ocorre ao mesmo tempo que outro acontecimento. Simultâneo."
   examples:
     - "Alguns estudos sugerem que as mulheres são melhores em realizar tarefas concomitantes."
-  kudos: "Érika Cólen"
+  kudos:
+    - "Érika Cólen"
