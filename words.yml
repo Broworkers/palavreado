@@ -77,3 +77,13 @@ concomitante:
     - "Muitos médicos apostam no tratamento concomitante de quimioterapia e radioterapia em casos de câncer."
   kudos:
     - "Érika Cólen"
+
+inefável:
+  syllabes: [i, ne, fá, vel]
+  stress: 2
+  description: "Que não se pode expressar em palavras. Indizível."
+  examples:
+    - "Não consigo descrever o que senti, meu sentimento era inefável."
+  kudos:
+    - "Cyntia Calhado"
+    - "Lucio Libanori"
