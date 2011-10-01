@@ -87,3 +87,12 @@ inefável:
   kudos:
     - "Cyntia Calhado"
     - "Lucio Libanori"
+
+esdrúxulo:
+  syllabes: [es, drú, xu, lo]
+  stress: 1
+  description: "Exótico, esquisito, fora do comum."
+  examples:
+    - "Seu modo de se vestir era esdrúxulo, mas fez sucesso."
+  kudos:
+    - "Laércio Ribeiro"
