@@ -96,3 +96,12 @@ esdrúxulo:
     - "Seu modo de se vestir era esdrúxulo, mas fez sucesso."
   kudos:
     - "Laércio Ribeiro"
+
+conjectura:
+  syllabes: [con, jec, tu, ra]
+  stress: 2
+  description: "Opinião incerta ou baseada em aparências. Suposição, hipótese."
+  examples:
+    - "Foram feitas conjecturas sobre o novato antes mesmo de conhecê-lo."
+  kudos:
+    - "Thiago Caiubi"
