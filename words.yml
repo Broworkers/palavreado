@@ -105,3 +105,12 @@ conjectura:
     - "Foram feitas conjecturas sobre o novato antes mesmo de conhecê-lo."
   kudos:
     - "Thiago Caiubi"
+
+condescender:
+  syllabes: [con, des, cen, der]
+  stress: 3
+  description: "Concordar com alguma coisa sabendo que poderia recusar. Ceder por bondade."
+  examples:
+    - "O filho pediu outro brinquedo e o pai condescendeu sem hesitar."
+  kudos:
+    - "Laís Wada"
