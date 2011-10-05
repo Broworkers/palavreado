@@ -1,5 +1,5 @@
 foobar:
-  syllabes: [foo, bar]
+  syllables: [foo, bar]
   stress: 1
   description: "Foo bar"
   examples:

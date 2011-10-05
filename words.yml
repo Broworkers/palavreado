@@ -1,68 +1,68 @@
 empírico:
-  syllabes: [em, pí, ri, co]
+  syllables: [em, pí, ri, co]
   stress: 1
   description: "Baseado em experiência ou observação. Relativo ao empirismo."
   examples:
     - "Meu conhecimento sobre a situação é empírico."
 
 intrínseco:
-  syllabes: [in, trín, se, co]
+  syllables: [in, trín, se, co]
   stress: 1
   description: "Que faz parte da essência ou natureza de algo. Íntimo."
   examples:
     - "A lealdade é um comportamento intrínseco aos cães."
 
 factível:
-  syllabes: [fac, tí, vel]
+  syllables: [fac, tí, vel]
   stress: 1
   description: "Que pode ser feito ou acontecer."
   examples:
     - "Não é factível realizar o projeto neste prazo."
 
 intermitente:
-  syllabes: [in, ter, mi, ten, te]
+  syllables: [in, ter, mi, ten, te]
   stress: 3
   description: "Em que ocorrem interrupções. Que não é contínuo."
   examples:
     - "A conexão da Internet em minha casa é intermitente."
 
 leviano:
-  syllabes: [le, vi, a, "no"]
+  syllables: [le, vi, a, "no"]
   stress: 2
   description: "Que age sem seriedade ou consideração. Que julga ou procede precipitadamente."
   examples:
     - "O prefeito se mostrou leviano em seu discurso."
 
 pragmático:
-  syllabes: [prag, má, ti, co]
+  syllables: [prag, má, ti, co]
   stress: 1
   description: "Prático, realista, objetivo."
   examples:
     - "Ele é bastante pragmático ao resolver problemas."
 
 estapafúrdio:
-  syllabes: [es, ta, pa, fúr, dio]
+  syllables: [es, ta, pa, fúr, dio]
   stress: 3
   description: "Extravagante, bizarro."
   examples:
     - "Fora do trabalho, ele é um sujeito bastante estapafúrdio."
 
 lúdico:
-  syllabes: [lú, di, co]
+  syllables: [lú, di, co]
   stress: 0
   description: "Relativo a jogos ou brincadeiras. Que tem como finalidade a diversão."
   examples:
     - "O recreio é o momento lúdico na escola."
 
 unânime:
-  syllabes: [u, nâ, ni, me]
+  syllables: [u, nâ, ni, me]
   stress: 1
   description: "Concordância geral. Que está de acordo com todos."
   examples:
     - "A decisão de aumentar os salários foi unânime."
 
 inexorável:
-  syllabes: [i, ne, xo, rá, vel]
+  syllables: [i, ne, xo, rá, vel]
   stress: 3
   description: "Que não cede. Inflexível, imparcial, cruel."
   examples:
@@ -70,7 +70,7 @@ inexorável:
     - "Jack beijou Rose enquanto o Titanic lentamente cumpria seu inexorável destino."
 
 concomitante:
-  syllabes: [con, co, mi, tan, te]
+  syllables: [con, co, mi, tan, te]
   stress: 3
   description: "Que ocorre ao mesmo tempo que outro acontecimento. Simultâneo."
   examples:
@@ -79,7 +79,7 @@ concomitante:
     - "Érika Cólen"
 
 inefável:
-  syllabes: [i, ne, fá, vel]
+  syllables: [i, ne, fá, vel]
   stress: 2
   description: "Que não se pode expressar em palavras. Indizível."
   examples:
@@ -89,7 +89,7 @@ inefável:
     - "Lucio Libanori"
 
 esdrúxulo:
-  syllabes: [es, drú, xu, lo]
+  syllables: [es, drú, xu, lo]
   stress: 1
   description: "Exótico, esquisito, fora do comum."
   examples:
@@ -98,7 +98,7 @@ esdrúxulo:
     - "Laércio Ribeiro"
 
 conjectura:
-  syllabes: [con, jec, tu, ra]
+  syllables: [con, jec, tu, ra]
   stress: 2
   description: "Opinião incerta ou baseada em aparências. Suposição, hipótese."
   examples:
@@ -107,7 +107,7 @@ conjectura:
     - "Thiago Caiubi"
 
 condescender:
-  syllabes: [con, des, cen, der]
+  syllables: [con, des, cen, der]
   stress: 3
   description: "Concordar com alguma coisa sabendo que poderia recusar. Ceder por bondade."
   examples:
@@ -116,7 +116,7 @@ condescender:
     - "Laís Wada"
 
 veemente:
-  syllabes: [ve, e, men, te]
+  syllables: [ve, e, men, te]
   stress: 2
   description: "Forte, intenso, caloroso."
   examples:

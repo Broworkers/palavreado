@@ -1,13 +1,13 @@
 section#word
   h1= word
 
-  #syllabes
-    - syllabes.each.with_index do |syllabe, index|
+  #syllables
+    - syllables.each.with_index do |syllable, index|
       - if stress? index
         em.stress title='Sílaba tônica'
-          = syllabe
+          = syllable
       - else
-        = syllabe
+        = syllable
       - unless last? index
         |·
 

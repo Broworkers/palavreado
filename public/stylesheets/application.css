@@ -13,8 +13,8 @@ section { float:left; margin:0 25px 25px 175px; padding:50px; width:400px; backg
 
 /* Word Section */
 #word h1 { margin-bottom:35px; font-size:60px; font-weight:normal; text-align:center; line-height:0.5em; }
-#word #syllabes { margin-bottom:25px; font-size:24px; text-align:center; color:#9E9884; }
-#word #syllabes em { font-weight:bold; font-style:normal; cursor:help; }
+#word #syllables { margin-bottom:25px; font-size:24px; text-align:center; color:#9E9884; }
+#word #syllables em { font-weight:bold; font-style:normal; cursor:help; }
 
 #word #description { margin-bottom:25px; font-size:24px; line-height:25px; }
 

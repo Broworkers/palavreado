@@ -18,9 +18,9 @@ begin
 
     verify key
 
-    values['syllabes'].tap do |syllabes|
-      verify syllabes, Array
-      syllabes.each {|syllabe| verify syllabe }
+    values['syllables'].tap do |syllables|
+      verify syllables, Array
+      syllables.each {|syllable| verify syllable }
     end
 
     verify values['stress'], Integer

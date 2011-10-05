@@ -11,11 +11,11 @@ Words = YAML.load_file('words.yml')
 
 helpers do
   def word; params[:word]; end
-  def syllabes; @word['syllabes']; end
+  def syllables; @word['syllables']; end
   def description; @word['description']; end
   def stress?(i); @word['stress'] == i; end
   def examples; @word['examples']; end
-  def last?(i); @word['syllabes'].size - 1 == i; end
+  def last?(i); @word['syllables'].size - 1 == i; end
   def random; Words.keys.shuffle.first(8); end
   def escape(string); (URI.escape(string)); end
 end
