@@ -114,3 +114,10 @@ condescender:
     - "O filho pediu outro brinquedo e o pai condescendeu sem hesitar."
   kudos:
     - "Laís Wada"
+
+veemente:
+  syllabes: [ve, e, men, te]
+  stress: 2
+  description: "Forte, intenso, caloroso."
+  examples:
+    - "O presidente fez um veemente discurso sobre o futuro do país."
