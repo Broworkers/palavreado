@@ -121,3 +121,10 @@ veemente:
   description: "Forte, intenso, caloroso."
   examples:
     - "O presidente fez um veemente discurso sobre o futuro do país."
+
+condolência:
+  syllables: [con, do, lên, cia]
+  stress: 2
+  description: "Compaixão pela dor alheia. Pêsames."
+  examples:
+    - "Nossas mais sinceras condolências pela morte de Steve Jobs."
