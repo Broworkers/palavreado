@@ -1,0 +1,75 @@
+/* Main Body */
+body { margin:0 auto; padding:25px; width:850px; font-family:Crimson Text, Palatino, Georgia, serif; background:url("/images/bg_body2.png") no-repeat center top fixed #000; }
+
+/* Title */
+header { margin:0 0 25px 175px; font-family:Maven Pro, Helvetica, sans-serif; }
+header a { position:relative; margin-right:25px; font-size:28px; font-weight:900; text-transform:uppercase; text-decoration:none; color:#F3F1EA; outline:none; }
+header a span { font-weight:normal; color:#999; letter-spacing:-0.05em; text-transform:none; }
+header a:hover:before, header a:focus:before { content:"⬅ Home"; position:absolute; left:-35%; padding:0.4em; top:8%; font-size:0.5em; color:#999; background-color:rgba(70,70,70,0.3); border-radius:0.5em; }
+
+
+/* Content */
+section { float:left; margin:0 25px 25px 175px; padding:50px; width:400px; background-color:#F3F1EA; box-shadow:0 1px 2px rgba(0,0,0,0.3); }
+
+/* Word Section */
+#word h1 { margin-bottom:35px; font-size:60px; font-weight:normal; text-align:center; line-height:0.5em; }
+#word #syllables { margin-bottom:25px; font-size:24px; text-align:center; color:#9E9884; }
+#word #syllables em { font-weight:bold; font-style:normal; cursor:help; }
+
+#word #description { margin-bottom:25px; font-size:24px; line-height:25px; }
+
+#word #examples { font-size:24px; font-style:italic; color:#9E9884; list-style-position:inside; }
+#word #examples li:not(:last-child) { margin-bottom:0.5em; }
+
+
+/* Word List */
+nav { float:right; width:150px; }
+nav > div { padding:25px; background-color:rgba(255,255,255,0.15); box-shadow:0 1px 2px rgba(0,0,0,0.3); }
+nav h2 { margin-bottom:12px; font-size:13px; font-weight:600; color:#F3F1EA; text-transform:uppercase; letter-spacing:; text-align:center; text-shadow:0 1px 1px rgba(0,0,0,0.2); }
+nav a { font-size:14px; color:#999; line-height:25px; text-decoration:none; }
+nav a:hover, nav a:focus { text-decoration:underline; }
+
+nav a.random { display:block; margin-bottom:25px; padding:10px 10px 10px 36px; font-family:Maven Pro, Helvetica, sans-serif; font-size:13px; font-weight:700; line-height:1; text-transform:uppercase; color:#000; background:url("/images/random.png") no-repeat 10px 10px #F3F1EA; border-radius:5px; box-shadow:0 1px 2px rgba(0,0,0,0.3); text-decoration:none; }
+nav a.random:hover, nav a.random:focus { background:url("/images/random.png") no-repeat 10px -26px #333; color:#F3F1EA; }
+
+
+/* Sidebar */
+aside { float:left; padding:25px; width:100px; background-color:rgba(0,0,0,0.1); }
+
+
+/* About Section */
+#about { font-family:Maven Pro, Helvetica, sans-serif; text-align:center; line-height:2em; }
+#about h1, #about h2, #about dd:not(:last-child) { margin-bottom:25px; }
+#about h2, #about dd:not(:last-child) { padding-bottom:25px; border-bottom:1px solid rgba(0,0,0,0.05); }
+#about h1 { font-size:1.5em; }
+#about h2 { margin-top:25px; padding-top:25px; font-size:1.2em; color:#666; border-top:1px solid rgba(0,0,0,0.05); }
+#about h2:before, #about h2:after { content:"—"; color:#CCC; }
+
+#about p { margin-bottom:25px; font-size:0.85em; line-height:1.5em; text-align:left; }
+#about a { color:#999; text-decoration:none; }
+#about a:hover, #about a:focus { text-decoration:underline; }
+#about ul { margin-bottom:25px; font-size:0.85em; line-height:1.5em; text-align:left; list-style:square inside; }
+
+#about dl ul { margin-bottom:0; font-size:1em; text-align:center; list-style:none; }
+#about dt { font-weight:500; color:#666; }
+#about dd { font-size:0.8em; color:#999; }
+
+
+/* Footer */
+footer { margin-bottom:25px; float:left; margin-left:175px; width:500px; font-family:Maven Pro, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#444; }
+footer a { color:#666; text-decoration:none; outline:none; }
+footer a:hover, footer a:focus { color:#999; text-decoration:underline; }
+
+
+/* Social Buttons */
+#social { margin-bottom:25px; padding-bottom:25px; height:20px; border-bottom:1px solid #444; text-align:center; overflow:hidden; opacity:0.5; }
+#social:hover { opacity:1; }
+
+#social .paypal { float:left; margin-right:15px; padding:4px; font-family:Maven Pro, Helvetica, sans-serif; color:#000; font-weight:bold; font-size:12px; background-color:#F96; border:none; border-radius:3px; text-shadow:0 1px 0 rgba(255,255,255,0.3); cursor:pointer; vertical-align:middle; text-decoration:none; box-shadow:inset 0 5px 5px #FFB, 0 1px 1px rgba(0,0,0,0.3); cursor:pointer; -moz-appearance:none; -webkit-appearance:none; }
+#social .paypal span { font-family:Crimson Text, Palatino, Georgia, serif; font-style:italic; font-weight:normal; }
+
+#social .addthis_button_twitter_follow_native iframe { width:185px !important; }
+
+
+/* Apple */
+.apple { margin-top:25px; font-size:2em; text-align:center; }
