@@ -128,3 +128,12 @@ condolência:
   description: "Compaixão pela dor alheia. Pêsames."
   examples:
     - "Nossas mais sinceras condolências pela morte de Steve Jobs."
+
+altruísta:
+  syllables: [al, tru, ís, ta]
+  stress: 2
+  description: "Que ama ou ajuda o próximo sem esperar algo em troca. Humanitário."
+  examples:
+    - "Seu espírito altruísta deveria servir como inspiração para todos."
+  kudos:
+    - "Laís Wada"
