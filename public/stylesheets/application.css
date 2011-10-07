@@ -69,3 +69,7 @@ footer a:hover, footer a:focus { color:#D3F3FF; text-decoration:underline; }
 #social .paypal span { font-family:Crimson Text, Palatino, Georgia, serif; font-style:italic; font-weight:normal; }
 
 #social .addthis_button_twitter_follow_native iframe { width:185px !important; }
+
+
+/* Steve Jobs Tribute */
+.stevejobs { position:fixed; top:0; right:0; }
