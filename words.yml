@@ -137,3 +137,12 @@ altruísta:
     - "Seu espírito altruísta deveria servir como inspiração para todos."
   kudos:
     - "Laís Wada"
+
+demagogia:
+  syllables: [de, ma, go, gi, a]
+  stress: 3
+  description: "Técnica de argumentação, discurso ou opinião que apela aos desejos do povo ou da maioria, geralmente com promessas que não serão cumpridas."
+  examples:
+    - "O candidato abusou da demagogia em sua campanha, prometendo casas para todos os moradores da favela."
+  kudos:
+    - "Laís Wada"
