@@ -146,3 +146,10 @@ demagogia:
     - "O candidato abusou da demagogia em sua campanha, prometendo casas para todos os moradores da favela."
   kudos:
     - "Laís Wada"
+
+curador:
+  syllables: [cu, ra, dor]
+  stress: 2
+  description: "Indivíduo encarregado de cuidar dos bens de outra pessoa ou organização."
+  examples:
+    - "O curador do museu encaminhou quadros para a restauração."
