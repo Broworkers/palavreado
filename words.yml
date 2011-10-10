@@ -153,3 +153,10 @@ curador:
   description: "Indivíduo encarregado de cuidar dos bens de outra pessoa ou organização."
   examples:
     - "O curador do museu encaminhou quadros para a restauração."
+
+ultraje:
+  syllables: [ul, tra, je]
+  stress: 1
+  description: "Ofensa grave, insulto, afronta."
+  examples:
+    - "Muitos religiosos consideraram as críticas à igreja um ultraje."
