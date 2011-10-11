@@ -160,3 +160,12 @@ ultraje:
   description: "Ofensa grave, insulto, afronta."
   examples:
     - "Muitos religiosos consideraram as críticas à igreja um ultraje."
+
+alcunha:
+  syllables: [al, cu, nha]
+  stress: 1
+  description: "Nome ou apelido dado a uma pessoa, objeto ou local, de acordo com uma característica que o destaque."
+  examples:
+    - "Muitos nomes antigos eram, na verdade, alcunhas que descreviam defeitos ou qualidades físicas das pessoas."
+  kudos:
+    - "Laís Wada"
