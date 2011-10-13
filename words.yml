@@ -169,3 +169,10 @@ alcunha:
     - "Muitos nomes antigos eram, na verdade, alcunhas que descreviam defeitos ou qualidades físicas das pessoas."
   kudos:
     - "Laís Wada"
+
+efêmero:
+  syllables: [e, fê, me, ro]
+  stress: 1
+  description: "Que é de curta duração. Breve, passageiro."
+  examples:
+    - "A maioria dos insetos têm um ciclo de vida efêmero."
