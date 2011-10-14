@@ -176,3 +176,12 @@ efêmero:
   description: "Que é de curta duração. Breve, passageiro."
   examples:
     - "A maioria dos insetos têm um ciclo de vida efêmero."
+
+abrasivo:
+  syllables: [a, bra, si, vo]
+  stress: 2
+  description: "Substância ou material capaz de desgastar ou polir."
+  examples:
+    - "Não se deve usar produtos abrasivos ao limpar vidros."
+  kudos:
+    - "Laís Wada"
