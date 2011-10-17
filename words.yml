@@ -185,3 +185,12 @@ abrasivo:
     - "Não se deve usar produtos abrasivos ao limpar vidros."
   kudos:
     - "Laís Wada"
+
+peculiar:
+  syllables: [pe, cu, li, ar]
+  stress: 3
+  description: "Que é próprio de alguém ou alguma coisa. Característico."
+  examples:
+    - "Este sotaque é peculiar a pessoas daquela região."
+  kudos:
+    - "Laís Wada"
