@@ -194,3 +194,10 @@ peculiar:
     - "Este sotaque é peculiar a pessoas daquela região."
   kudos:
     - "Laís Wada"
+
+dissimulado:
+  syllables: [dis, si, mu, la, do]
+  stress: 3
+  description: "Fingido, enganador, hipócrita."
+  examples:
+    - "O mordomo sempre tinha um sorriso dissimulado no rosto. Ninguém suspeitava de seus planos criminosos."
