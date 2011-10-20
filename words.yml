@@ -210,3 +210,10 @@ discernimento:
     - "Ele preferiu confiar em seu próprio discernimento a respeito da situação."
   kudos:
     - "Laís Wada"
+
+simbiose:
+  syllables: [sim, bi, o, se]
+  stress: 2
+  description: "Vida em comum. Relação mútua."
+  examples:
+    - "O peixe-palhaço vive em uma relação de simbiose com anêmonas-do-mar."
