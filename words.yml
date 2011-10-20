@@ -201,3 +201,12 @@ dissimulado:
   description: "Fingido, enganador, hipócrita."
   examples:
     - "O mordomo sempre tinha um sorriso dissimulado no rosto. Ninguém suspeitava de seus planos criminosos."
+
+discernimento:
+  syllables: [dis, cer, ni, men, to]
+  stress: 3
+  description: "Entendimento, distinção, critério."
+  examples:
+    - "Ele preferiu confiar em seu próprio discernimento a respeito da situação."
+  kudos:
+    - "Laís Wada"
