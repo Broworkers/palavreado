@@ -217,3 +217,12 @@ simbiose:
   description: "Vida em comum. Relação mútua."
   examples:
     - "O peixe-palhaço vive em uma relação de simbiose com anêmonas-do-mar."
+
+postergar:
+  syllables: [pos, ter, gar]
+  stress: 2
+  description: "Deixar para depois ou para mais tarde. Adiar."
+  examples:
+    - "Não podemos mais postergar a reunião com a diretoria."
+  kudos:
+    - "Laís Wada"
