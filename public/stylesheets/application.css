@@ -65,8 +65,8 @@ footer a:hover, footer a:focus { color:#D3F3FF; text-decoration:underline; }
 #social { margin-bottom:25px; padding-bottom:25px; height:20px; border-bottom:1px solid #26679B; text-align:center; overflow:hidden; opacity:0.5; }
 #social:hover { opacity:1; }
 
-#social .paypal { float:left; margin-right:15px; padding:4px; font-family:Maven Pro, Helvetica, sans-serif; color:#000; font-weight:bold; font-size:12px; background-color:#F96; border:none; border-radius:3px; text-shadow:0 1px 0 rgba(255,255,255,0.3); cursor:pointer; vertical-align:middle; text-decoration:none; box-shadow:inset 0 5px 5px #FFB, 0 1px 1px rgba(0,0,0,0.3); cursor:pointer; -moz-appearance:none; -webkit-appearance:none; }
-#social .paypal span { font-family:Crimson Text, Palatino, Georgia, serif; font-style:italic; font-weight:normal; }
+#social .orange_button { float:left; margin-right:15px; padding:4px; font-family:Maven Pro, Helvetica, sans-serif; color:#000; font-weight:bold; font-size:12px; background-color:#F96; border:none; border-radius:3px; text-shadow:0 1px 0 rgba(255,255,255,0.3); cursor:pointer; vertical-align:middle; text-decoration:none; box-shadow:inset 0 5px 5px #FFB, 0 1px 1px rgba(0,0,0,0.3); cursor:pointer; -moz-appearance:none; -webkit-appearance:none; }
+#social .orange_button span { font-family:Crimson Text, Palatino, Georgia, serif; font-style:italic; font-weight:normal; }
 
 #social .addthis_button_twitter_follow_native iframe { width:185px !important; }
 

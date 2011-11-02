@@ -24,6 +24,8 @@ html lang="pt-BR"
 
     link rel='shortcut icon' href='/images/icon.png'
 
+    link rel='alternate' type='application/rss+xml' title='RSS' href='rss'
+
     link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,700' rel='stylesheet' type='text/css'
     link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'
 
@@ -46,10 +48,14 @@ html lang="pt-BR"
 
     footer
       #social
-        a.paypal href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AT9APSCCAT4RQ&lc=BR&item_name=Palavreado%2ecom&currency_code=BRL&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"
-          | Doar&nbsp;
-          span via
-          | &nbsp;Paypal
+        /
+          a.orange_button href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=AT9APSCCAT4RQ&lc=BR&item_name=Palavreado%2ecom&currency_code=BRL&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted"
+            | Doar&nbsp;
+            span via
+            | &nbsp;Paypal
+        a.orange_button href="http://palavreado.com/rss"
+          | RSS 
+          span feed
 
         div class="addthis_toolbox addthis_default_style"
           a class="addthis_button_twitter_follow_native" tf:screen_name="PALAVREADOcom" tf:button="grey" tf:text-color="65AEDC" tf:link-color="79BFEA" tf:show-count="false"
