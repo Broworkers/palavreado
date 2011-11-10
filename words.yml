@@ -226,3 +226,10 @@ postergar:
     - "Não podemos mais postergar a reunião com a diretoria."
   kudos:
     - "Laís Wada"
+
+trivial:
+  syllables: [tri, vi, al]
+  stress: 2
+  description: "Comum, banal, medíocre."
+  examples:
+    - "Não podemos gastar mais tempo em um assunto tão trivial como esse."
