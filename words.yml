@@ -233,3 +233,12 @@ trivial:
   description: "Comum, banal, medíocre."
   examples:
     - "Não podemos gastar mais tempo em um assunto tão trivial como esse."
+
+confim:
+  syllables: [con, fim]
+  stress: 1
+  description: "Extremidade, limite, fronteira."
+  examples:
+    - "O explorador viajou até os confins do país para encontrar o templo perdido."
+  kudos:
+    - "Laís Wada"
