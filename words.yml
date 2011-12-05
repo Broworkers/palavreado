@@ -242,3 +242,10 @@ confim:
     - "O explorador viajou até os confins do país para encontrar o templo perdido."
   kudos:
     - "Laís Wada"
+
+sápido:
+  syllables: [sá, pi, do]
+  stress: 0
+  description: "Que tem sabor, saboroso, gostoso."
+  examples:
+    - "Ela comeu com prazer o sápido morango silvestre."
