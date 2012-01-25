@@ -251,3 +251,44 @@ sápido:
     - "Ela comeu com prazer o sápido morango silvestre."
   kudos:
     - "Laís Wada"
+
+eclético:
+  syllables: [e, clé, ti, co]
+  stress: 1
+  description: "Que não segue apenas um tipo de gosto ou método. Que escolhe ou é composto de várias fontes."
+  examples:
+    - "Seu gosto musical é eclético, vai desde música clássica ao rock and roll."
+
+anedota:
+  syllables: [a, ne, do, ta]
+  stress: 2
+  description: "Relato curto e engraçado sobre um acontecimento curioso. Piada."
+  examples:
+    - "Muitos escritores usam anedotas em suas histórias, de modo a deixá-las mais agradáveis de se ler."
+
+paliativo:
+  syllables: [pa, li, a, ti, vo]
+  stress: 3
+  description: "Medida de eficácia momentânea. Que acalma ou alivia temporariamente. Quebra-galho."
+  examples:
+    - "Os enfermeiros usam métodos paliativos para controlar a situação dos feridos até que os médicos possam atendê-los."
+    - "Sob pressão, o empregado consertou a máquina de modo paliativo para agradar o chefe."
+
+persuadir:
+  syllables: [per, su, a, dir]
+  stress: 3
+  description: "Levar ou induzir alguém a fazer, aceitar ou acreditar em alguma coisa. Convencer."
+  examples:
+    - "A criança conseguiu persuadir seus pais a comprar o brinquedo que tanto queria."
+  kudos:
+    - "Laís Wada"
+
+obsoleto:
+  syllables: [ob, so, le, to]
+  stress: 2
+  description: "Fora de uso, fora de linha, desatualizado."
+  examples:
+    - "Hoje em dia, os computadores ficam obsoletos pouco depois de saírem da fábrica."
+    - "Várias palavras usadas antigamente se tornaram obsoletas."
+  kudos:
+    - "Laís Wada"
