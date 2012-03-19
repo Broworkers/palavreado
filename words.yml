@@ -292,3 +292,10 @@ obsoleto:
     - "Várias palavras usadas antigamente se tornaram obsoletas."
   kudos:
     - "Laís Wada"
+
+analogia:
+  syllables: [a, na, lo, gi, a]
+  stress: 3
+  description: "Método usado para explicar uma certa situação usando outra situação semelhante."
+  examples:
+    - "O professor fez uso de analogias para explicar a teoria da evolução."
