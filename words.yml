@@ -306,3 +306,19 @@ setentrional:
   description: "Situado no norte, relativo ao setentrião (vento do norte)."
   examples:
     - "Nossa viagem terminou no Egito, que fica na África Setentrional."
+  kudos:
+    - "Wagner Amaral"
+
+capcioso:
+  syllables: [cap, ci, o, so]
+  stress: 2
+  description: "Que procura levar ao erro, que confunde ou engana. Que tem malícia."
+  examples:
+    - "Com um questionamento capcioso, o jornalista denegriu a imagem do artista entrevistado."
+
+oriundo:
+  syllables: [o, ri, un, do]
+  stress: 2
+  description: "Originário, proveniente, natural de."
+  examples:
+    - "O jovem guitarrista tem orgulho de ser oriundo da cidade de Santos."
