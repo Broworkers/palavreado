@@ -39,7 +39,7 @@ O _status code_ será `0`, caso não haja erro, ou `1`, em caso de falha.
 
 ## Cógido fonte
 
-O código fonte do **Palavreado.com** está disponível gratuitamente em https://github.com/dlibanori/palavreado através de licença MIT.
+O código fonte do **Palavreado.com** está disponível gratuitamente em https://github.com/oicurrent/palavreado através de licença MIT.
 
 - Gemfile: dependências da aplicação
 - Gemfile.lock: dependências da aplicação e suas respectivas versões
