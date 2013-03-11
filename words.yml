@@ -322,3 +322,10 @@ oriundo:
   description: "Originário, proveniente, natural de."
   examples:
     - "O jovem guitarrista tem orgulho de ser oriundo da cidade de Santos."
+
+tangível:
+  syllables: [tan, gí, vel]
+  stress: 1
+  description: "Aquilo que pode ser tocado; sensível ao tato."
+  examples:
+    - "Após muito esforço, o sonho de Ivan se tornou algo tangível."
