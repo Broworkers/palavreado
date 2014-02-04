@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 require 'sinatra'
-require 'slim'
+require 'haml'
 require 'yaml'
 require 'uri'
 
@@ -29,24 +29,24 @@ get '/rss' do
   @word = Words[word]
 
   content_type "application/rss+xml"
-  slim :feed, layout: false
+  haml :feed, layout: false
 end
 
 get '/about' do
-  slim :about
+  haml :about
 end
 
 get '/random' do
   params[:word] = random.first
   @word = Words[word]
-  slim :word
+  haml :word
 end
 
 get '/:word' do |word|
   @word = Words[word]
 
   if @word
-    slim :word
+    haml :word
   else
     [404, "Palavra não cadastrada"]
   end

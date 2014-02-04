@@ -1,9 +1,7 @@
-# vi:ft=ruby
-
 source 'http://rubygems.org'
 
 gem 'sinatra'
-gem 'slim'
+gem 'haml'
 
 group :development do
   gem 'bacon'
