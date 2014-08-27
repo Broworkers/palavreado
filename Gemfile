@@ -4,6 +4,7 @@ gem 'sinatra'
 gem 'haml'
 gem 'sass'
 gem 'bourbon'
+gem 'unicorn'
 
 group :development do
   gem 'bacon'
@@ -11,6 +12,5 @@ group :development do
 end
 
 group :production do
-  gem 'thin'
   gem 'rails_12factor'
 end
