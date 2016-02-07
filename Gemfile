@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
+gem 'unicorn'
+
 gem 'haml'
 gem 'sass'
-gem 'bourbon'
-gem 'unicorn'
 
 group :development do
   gem 'bacon'

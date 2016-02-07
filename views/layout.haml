@@ -2,59 +2,58 @@
 
 %html
   %head
-    %meta(charset="utf-8")
-    %meta(http-equiv="content-language" content="pt-BR")
+    %meta(charset='utf-8')
 
     / Meta
-    %meta(name="description" content="O Palavreado.com busca expandir o vocabulário de falantes de Português do Brasil, com explicações objetivas e exemplos simples de palavras de uso não muito frequente.")
-    %meta(name="author" content="Current")
-    %meta(name="copyright" content="© 2011 Current Design e Desenvolvimento Web")
-    %meta(name="keywords" content="vocabulário, Português, palavra, termo, curiosidade")
+    %meta(name='description' content='O Palavreado.com busca expandir o vocabulário de falantes de Português do Brasil, com explicações objetivas e exemplos simples de palavras de uso não muito frequente.')
+    %meta(name='author' content='Current')
+    %meta(name='copyright' content='© 2011 Current Design e Desenvolvimento Web')
+    %meta(name='keywords' content='vocabulário, Português, palavra, termo, curiosidade')
 
     / Facebook Open Graph
     - if word
-      %meta(property="og:title" content="#{word}")
-      %meta(property="og:site_name" content="Palavreado.com")
+      %meta(property='og:title' content='#{word}')
+      %meta(property='og:site_name' content='Palavreado.com')
     - else
-      %meta(property="og:title" content="Palavreado.com")
-    %meta(property="og:description" content="Aprenda uma nova palavra.")
-    %meta(property="og:image" content="http://palavreado.com/images/icon.png")
-    %meta(property="og:type" content="website")
+      %meta(property='og:title' content='Palavreado.com')
+    %meta(property='og:description' content='Aprenda uma nova palavra.')
+    %meta(property='og:image' content='http://palavreado.com/images/icon.png')
+    %meta(property='og:type' content='website')
 
     / CSS
-    %link(rel="stylesheet" href="/stylesheets/reset.css")
-    %link(rel="stylesheet" href="/stylesheets/application.css")
+    %link(rel='stylesheet' href='/stylesheets/reset.css')
+    %link(rel='stylesheet' href='/stylesheets/application.css')
 
     / Fav Icon
-    %link(rel="shortcut icon" href="/images/icon.png")
+    %link(rel='shortcut icon' href='/images/icon.png')
 
     / RSS
-    %link(rel="alternate" type="application/rss+xml" title="RSS" href="rss")
+    %link(rel='alternate' type='application/rss+xml' title='RSS' href='rss')
 
     / Fonts
-    %link(href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,700" rel="stylesheet")
-    %link(href="http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet")
+    %link(href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,700' rel='stylesheet')
+    %link(href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet')
 
     %title
       - if word
         #{word} -&nbsp;
       Palavreado.com, aprenda uma nova palavra
 
-  %body
+  %body(lang='pt-BR')
 
-    %header
-      %a(href="/")
+    %header.site-header
+      %a(href='/')
         Palavreado
         %span> .com
 
-    = yield
+    %main.site-content= yield
 
-    %footer
-      &copy 2011
-      %a(href="http://current.com.br") Current
-      ·
-      %a(href="/about") Sobre o Palavreado.com
+    %footer.site-footer
+      &copy; 2011
+      %a(href='http://current.com.br') Current
+      &middot;
+      %a(href='/about') Sobre o Palavreado.com
 
 
-    %script(type="text/javascript")
+    %script(type='text/javascript')
       var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-25885934-1']);_gaq.push(['_setDomainName', '.palavreado.com']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
