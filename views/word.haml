@@ -1,24 +1,24 @@
-%section#word
-  %h1= word
+%section.page-content
+  %h1.word-display= word
 
-  %div#syllables
+  %div.word-syllables
     - syllables.each.with_index do |syllable, index|
       - if stress? index
         %em.stress(title="Sílaba tônica")= syllable
       - else
         = syllable
       - unless last? index
-        \·
+        &middot;
 
-  %p#description= description
+  %p.word-description= description
 
-  %ol#examples
+  %ol.word-examples
     - examples.each do |example|
       %li= example
 
-%nav
-  %a.random(href="/random") Embaralhar
-  %div
+%nav.sidebar
+  %a.randomize-button(href="/random") Embaralhar
+  %div.more-words
     %h2 Descubra mais
     %ul
       - random.each do |word|
