@@ -37,34 +37,33 @@ O arquivo `check.rb` é uma pequena aplicação Ruby que verifica se o arquivo Y
 
 O _status code_ será `0`, caso não haja erro, ou `1`, em caso de falha.
 
+
 ## Cógido fonte
 
-O código fonte do **Palavreado.com** está disponível gratuitamente em https://github.com/oicurrent/palavreado através de licença MIT.
-
-- Gemfile: dependências da aplicação
-- Gemfile.lock: dependências da aplicação e suas respectivas versões
-- README.md: este arquivo
-- TODO.md: lista de coisas a serem feitas
-- check.rb: arquivo que checa validade do dicionário
-- config.ru: configuração do Rack
-- license.txt: licença de uso
-- palavreado.rb: ações do Sinatra
-- public/:
-  - images/: imagens estáticas
-  - stylesheets/:
-    - reset.css: remove o CSS padrão do browser
-    - application.css: CSS da aplicação
-- spec/:
-  - bad.yml: dicionário para testes mal formado
-  - palavreado\_spec.rb: especificação do Palavreado.com
-  - words.yml: dicionário para testes bem formado
-- views/:
-  - layout.slim: arquivo de layout
-  - word.slim: definição de uma palavra
-  - about.slim: sobre o site
-- words.yml: base de dados de palavras
+- `Gemfile`: dependências da aplicação
+- `Gemfile.lock`: dependências da aplicação e suas respectivas versões
+- `README.md`: este arquivo
+- `TODO.md`: lista de coisas a serem feitas
+- `check.rb`: arquivo que checa validade do dicionário
+- `config.ru`: configuração do Rack
+- `license.txt`: licença de uso
+- `palavreado.rb`: ações do Sinatra
+- `public/`:
+  - `images/`: imagens estáticas
+  - `stylesheets/`:
+    - `reset.css`: remove o CSS padrão do browser
+    - `application.css`: CSS da aplicação
+- `spec/`:
+  - `bad.yml`: dicionário para testes mal formado
+  - `palavreado_spec.rb`: especificação do Palavreado.com
+  - `words.yml`: dicionário para testes bem formado
+- `views/`:
+  - `layout.slim`: arquivo de layout
+  - `word.slim`: definição de uma palavra
+  - `about.slim`: sobre o site
+- `words.yml`: base de dados de palavras
 
 
 ## Licença
 
-**Palavreado.com** é distribuído através de licença MIT.
+**Palavreado.com** é distribuído através da licença [MIT](https://github.com/current/palavreado/blob/master/LICENSE.md).
